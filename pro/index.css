@@ -1,0 +1,15 @@
+.gallery-img:hover{
+    opacity: 0.5;
+    background-color: rgb(25,188,156);
+    border-radius:20px;
+    width: auto;
+}
+button:hover{
+    opacity: 0.6;
+    /* background-color: white; */
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
