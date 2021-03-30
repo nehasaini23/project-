@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+h1{
+  font-size: 15px!important;
+  color: black;
+  font-weight: lighter!important;
+  /* margin-top: 0.5rem!important; */
+  padding: 0.6rem;
+  box-shadow: 2px 2px 0px 0px rgb(243, 235, 235);
+  font-family: 'Montserrat', sans-serif;
+}
+h1 span{
+  color: rgb(3,175,182);
+  font-family: 'Montserrat', sans-serif;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 2px rgb(243, 235, 235);
+
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.topic{
+  font-size: 13px!important;
+  color: black;
+  font-family: 'Montserrat';
+  padding-top: 1px;
+  padding-bottom: 1px;
+  
+  /* position: relative;
+  bottom: 3.75rem; */
+}
+.butt{
+  border: none;
+  outline: none;
+  background-color:rgb(3,175,182);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+  height: 2.5rem;
+  
+}
+.head{
+  font-size: 17px;
+  padding: 1rem;
+  font-weight: bolder!important;
+  color: rgb(66,66,66);
+  font-family: 'Roboto', sans-serif;
+  
+}
+.form-control{
+  border:none;
+  border-bottom:1px solid rgb(108 117 125 / 28%);
+  border-radius:0px
+}
+.hide {
+  display: none;
+}
+.buttWhite{
+  border: none;
+  outline: none;
+  background-color:white;
+  font-weight: bold;
+  position:absolute!important;
+  left:0!important;
+  margin:-8px!important;
+  padding:0px!important;
+  font-size:2rem!important;
+  height:2.85rem!important;
+  width:54px!important;
+ 
+  /* box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3); */
+}
+.inp{
+  text-align: center;
+  width: 7rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  border:none;
+  outline: none!important;
+  
+}
+.form-check-input:checked {
+  background-color: rgb(3,175,182)!important;
+  border-color: rgb(3,175,182)!important;
+}
